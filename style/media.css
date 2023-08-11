@@ -1,0 +1,70 @@
+@media(max-width:920px){
+.lesson .container{
+    flex-direction: column-reverse;
+}
+.client1,
+.client2,
+.client3{
+align-items: center;
+gap: 30px;
+flex-direction: column;
+}
+}
+@media(max-width:800px){
+.header__nav .container{
+flex-direction: column;
+row-gap: 20px;
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+.containerr{
+width: 500px;
+margin: 0 auto;
+}
+.manage__items{
+/* flex-direction: column; */
+width: 83.3px;
+margin: 0 auto;
+margin-top: 20px;
+}
+}
+@media(max-width:500px){
+    .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+.container{
+width: 300px;
+margin: 0 auto;
+}
+.containerr{
+width: 300px;
+margin: 0 auto;
+}
+.sign .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign{
+margin-bottom: 20px;
+}
+.list{
+flex-direction: column;
+}
+.manage__items{
+flex-direction: column;
+}
+.numbers .container{
+justify-content:none;
+flex-direction: column;
+gap:20px;
+}
+.form .container{
+flex-direction: column;
+}
+}
